@@ -1,0 +1,143 @@
+body {
+  font-size: 16px;
+  font-family: serif;
+  padding: 0 20%;
+  -webkit-box-sizing: padding-box;
+          box-sizing: padding-box;
+}
+
+@media (max-width: 992px) {
+  body {
+    padding: 0 10%;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 0 5%;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 0 1%;
+  }
+}
+
+body * {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  margin: 20px 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.3em;
+}
+
+h2 {
+  text-align: left;
+  font-size: 1.3em;
+}
+
+h3 {
+  text-align: center;
+  font-size: 1.3em;
+}
+
+.table {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.table .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  border: 1px solid gray;
+  margin-top: -1px;
+  overflow: hidden;
+}
+
+.table .row .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 25%;
+  border-right: 1px solid gray;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.table .row .left a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.table .row .left a img {
+  max-width: 90%;
+  height: auto;
+  margin: 10px 0;
+}
+
+.table .row .right {
+  padding-left: 30px;
+  padding-top: 10px;
+  width: 75%;
+  height: 100%;
+}
+
+.table .row .right a {
+  display: inline-block;
+  margin: 20px 0;
+}
+
+.part2 {
+  padding-top: 60px;
+  font-size: 1.2em;
+}
+
+.part2 p {
+  margin: 20px 0;
+}
+
+.part2 img {
+  float: left;
+  margin-right: 10px;
+  max-width: 40%;
+  height: auto;
+}
+
+.part3 {
+  width: 80%;
+  padding-top: 60px;
+  margin: 0 auto;
+  font-size: 1.2em;
+}
+
+.part3 h3 {
+  font-size: 1em;
+}
+
+.part3 li {
+  padding-bottom: 20px;
+}
+/*# sourceMappingURL=styles.css.map */
